@@ -1,0 +1,93 @@
+*{
+
+    font-family: 'Poppins', sans-serif;
+}
+
+
+#Profile{
+    width:300px;
+    border-radius: 50%;
+
+}
+.picture{
+    margin-top: 100px;
+    float: left;
+    width: 50%;
+}
+.aside{
+    margin-top: 70px;
+    width:50%;
+    float: right;
+    padding-left: 20px;
+    font-size: medium;
+}
+#logo{
+    width: 50px;
+    border-radius: 50%;
+}
+.section2{
+    margin-top: 300px;
+
+}
+.row{
+    margin-top: 20px;
+    justify-content: space-around;
+    margin-bottom: 100px ;
+}
+/* #about {
+     margin-bottom: 100px; 
+
+} */
+.h1{
+    margin-top: 30px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+#forImg{
+    margin-top: 20px;
+    margin-left: 50px;
+    font-weight: 300;
+}
+footer{
+    background-color: black;
+    color: white;
+    height: 60px;
+    align-items: end;
+    font-weight: 300;
+    font-size:small;
+}
+#contact{
+    
+    background: radial-gradient(rgb(214, 211, 211),white);
+    text-align: center;
+    height: 300px;
+    padding: 70px;
+    justify-content: space-between;
+}
+#contact h1{
+    margin-bottom: 50px;
+}
+#contact a{
+    padding-right: 20px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.card:hover{
+    box-shadow: rgba(94, 92, 92, 0.35) 0px 5px 15px;
+   transform: scale(1.1);
+}
+.label{
+    padding:70px;
+}
+.label:hover{
+    color: grey;
+}
+#myChart{
+    font-size: large;
+    font-weight: bold;
+}
+#download{
+    font-weight: bold;
+}

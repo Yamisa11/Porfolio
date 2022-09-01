@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="http://fonts.cdnfonts.com/css/poppins" rel="stylesheet">
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+<link rel="stylesheet" href="style.css" type="text/css">   
+<title>Portfolio</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#"><img src="logo.jpg" id="logo"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                  <a class="nav-link" href="#about">About</a>
+                  <a class="nav-link" href="#projects">Projects</a>
+                  <a class="nav-link" href="#contact">Contact</a>
+                  <a id="download"class="nav-link" href="document.pdf" download>Download resume</a>
+                </div>
+              </div>
+            </div>
+          </nav>
+    </header>
+    
+       <!--  -->
+        <div class="container">
+            <!-- the first row which contains image and about -->
+            <div class="row">
+                <div id="about">
+                    <div class="picture">
+                        <img src="Yamisa.jpg" id="Profile">
+                        <h3 id="forImg">Yamisa Majija</h3>
+                    </div>
+                    <!-- class aside for about and social platforms links -->
+                    <div class="aside">
+                        <h1>Hi there!</h1>
+                        <p>I'm a web developer from Khayelitsha, Cape Town. I focus on writing clear, elegant and efficient code. My skills include HTML,CSS and Javascript</p>
+                        <br>
+                        <br>
+                        <div class="row">
+                            <a href="https://www.facebook.com/yamisa.majija" ><img src="fb.png" style="width: 80px; ">Yams Majija</a>
+                            <a href="mailto: majijayamisa@gmail.com"><img src="mail.png" style="width: 80px;">majijayamisa@gmail.com</a>
+                            <a href="https://github.com/Yamisa11"><img src="git.png" style="width: 80px"> Yamisa11</a>
+                         </div>
+                     </div>
+                </div>
+            </div>
+            
+            <hr>
+            <!-- bar grap -->
+            <div class="row">
+                <canvas id="myChart" style="width:100%;max-width:900px; font-size: large;"></canvas>
+
+            </div>
+<hr>
+            <!-- projects section -->
+            <div class="row">
+                <div id="projects">
+                    <h1 class="h1">Projects</h1>
+                    <div class="row">
+                        <div class="col-4">
+                            <div class="card" style=" width: 18rem;">
+                               <a href="http://127.0.0.1:5500/index.html"></a"><img src="To-do.png" class="card-img-top" alt="To-do list"  style="height:250px" ></a> 
+                                <div class="card-body">
+                                  <p class="card-text">To-do list where you can add a delete a task</p>
+                                </div>
+                              </div>
+                        </div>
+        
+                        <div class="col-4" >
+                            <div class="card "style="width:18rem">
+                                <a href="file:///C:/Users/User/Documents/BOOTCAMP/Projects/basicWebDev/Bootstrap/bootsrap.html"><img src="mogodu.png" class="card-img-top" alt="Mogodu Mondays"  style="height:250px" ></a>
+                                <div class="card-body">
+                                  <p class="card-text">Mogodu Mondays website showcasing different dishes</p>
+                                </div>
+                              </div>
+                        </div>
+        
+                        <div class="col-4">
+                            <div class="card" style="width:18rem">
+                                <a href="file:///C:/Users/User/Documents/BOOTCAMP/Projects/basicWebDev/GeekForGeek/index.html"><img src="geek.png" class="card-img-top" alt="Geek to Geek" style="height:250px" ></a>
+                                <div class="card-body">
+                                  <p class="card-text">Geek to geek website. HTML and CSS practice</p>
+                                </div>
+                              </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- contact section -->
+            <div class="row">
+                <div id="contact">
+                    <h1>Contact us</h1>
+                    <a href="#contact" >telephone: 0814309896</a>
+                    <a href="mailto: majijayamisa@gmail.com">email: majijayamisa@gmail.com</a>
+                    <a href="https://github.com/Yamisa11"> github:  Yamisa11</a>
+
+                </div>
+
+            </div>
+            
+        </div>
+       
+    
+     <footer>Copyright © 2022 rights reserved</footer>
+    
+    <!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+ integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+ crossorigin="anonymous">
+
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
