@@ -3,7 +3,6 @@
     font-family: 'Poppins', sans-serif;
 }
 
-
 #Profile{
     width:300px;
     border-radius: 50%;
@@ -20,6 +19,12 @@
     float: right;
     padding-left: 20px;
     font-size: medium;
+}
+.aside p{
+    margin-left: 1em;
+}
+.aside h1{
+    margin-left: 0.5em;
 }
 #logo{
     width: 50px;
@@ -42,6 +47,7 @@
     margin-top: 30px;
     margin-bottom: 50px;
     text-align: center;
+    
 }
 #forImg{
     margin-top: 20px;
