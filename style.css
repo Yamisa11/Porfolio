@@ -13,17 +13,17 @@
     float: left;
     width: 50%;
 }
-.aside{
+.aside1{
     margin-top: 70px;
     width:50%;
     float: right;
     padding-left: 20px;
     font-size: medium;
 }
-.aside p{
+.aside1 p{
     margin-left: 1em;
 }
-.aside h1{
+.aside1 h1{
     margin-left: 0.5em;
 }
 #logo{
@@ -96,4 +96,57 @@ a{
 }
 #download{
     font-weight: bold;
+}
+@media screen and (max-width:800px) {
+    .about-sec{
+       display: block;
+    }
+    .aside1 h1{
+        display: none;
+    }
+    
+    .aside1{
+        /* float: none; */
+        font-size: xx-large;
+        /* text-align: center; */
+        display: block;
+        width: 100%;
+        
+    }
+   
+    #Profile{
+        width:180%;
+        border-radius: 50%;
+        margin-left: 1.2em;
+    
+    }
+    #forImg{
+        /* margin-top: 20px;
+        margin-left: 50px; */
+        font-weight: 300;
+        text-align: center;
+        width: 170%;
+        font-size: xxx-large;
+    }
+    .col-4, .card {
+        width: 100% !important;
+        height: 430px !important;
+        margin-top: 1.5em;
+    }
+    .card img{
+        height: 350px !important;
+    }
+    #contacts a{
+     width: 100% !important
+
+    }
+    footer{
+        text-align: center;
+    }
+    .card-text{
+        font-size: x-large;
+    }
+    h1{
+        font-size: xx-large;
+    }
 }
